@@ -4,7 +4,7 @@
  */
  {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "dodgeball-blitz-hyfmfg7k",
+	"name": "dodgeball-blitz-pocket-arena",
 	"main": "worker/index.ts",
 	"compatibility_date": "2025-04-24",
 	"assets": {
