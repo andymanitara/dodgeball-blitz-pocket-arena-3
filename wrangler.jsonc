@@ -13,5 +13,21 @@
 	},
 	"observability": {
 		"enabled": true
-	}
+	},
+
+  // ... existing config
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "MULTIPLAYER_QUEUE",
+        "class_name": "MultiplayerQueueDO"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_classes": ["MultiplayerQueueDO"]
+    }
+  ]
 }
